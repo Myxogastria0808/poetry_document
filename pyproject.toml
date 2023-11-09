@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poetry-document"
+version = "0.1.0"
+description = ""
+authors = ["'Myxogastria0808' <r.rstudio.c@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+poethepoet = "^0.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks]
+main = "python main.py"
