@@ -37,6 +37,13 @@ poetry から吐き出されたパスをユーザー環境変数の Path に通�
 poetry --version
 ```
 
+## poetry 環境を VSCode に読み込ませる
+
+```shell
+poetry shell
+code .
+```
+
 ## poetry の基本コマンド
 
 ### poetry project の生成
